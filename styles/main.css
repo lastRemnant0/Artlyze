@@ -10,13 +10,13 @@ pale jade: #76b6a3
 
  */
 
-@import "../styles/base/_reset.css";
-@import "../styles/base/_base.css";
-@import "../styles/layout/_grid.css";
+@import "../styles/base/reset.css";
+@import "../styles/base/base.css";
+@import "../styles/layout/grid.css";
 @import "../styles/header.css";
-@import "../styles/_feature.css";
-@import "../styles/_footer.css";
-@import "../styles/_post-detailes.css";
+@import "../styles/feature.css";
+@import "../styles/footer.css";
+@import "../styles/post-detailes.css";
 
 /* Main Section */
 
