@@ -42,7 +42,7 @@ pale jade: #76b6a3
 .grid-posts {
   margin: 5rem 0;
   display: grid;
-  grid-template-columns: minmax(37rem, 39rem);
+  grid-template-columns: minmax(34rem, 36rem);
   grid-auto-rows: 2rem repeat(2, auto);
   justify-content: center;
 }
