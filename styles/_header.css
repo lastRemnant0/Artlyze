@@ -1,0 +1,52 @@
+/* Styling the header and nav of the page */
+
+.page-header,
+.navbar,
+.nav-items {
+  display: flex;
+}
+
+.page-header {
+  grid-area: hd;
+  background-color: #2a3039;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+#logo {
+  line-height: 1;
+  letter-spacing: 2px;
+  font-size: 2.7rem;
+  color: #59eec2;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+}
+
+.navbar {
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.nav-items {
+  position: relative;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-items li {
+  margin: 1rem 0 0 1rem;
+}
+
+.nav-items li a {
+  font: bold 1.6rem "Roboto", serif;
+  color: #d1d1d1;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.nav-items li a:hover {
+  background-color: #222831;
+  transition: 0.2s ease;
+  color: aliceblue;
+}

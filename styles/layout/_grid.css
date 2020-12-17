@@ -1,0 +1,38 @@
+
+
+/* Page layout */
+
+.master-grid-container {
+  height: 100%;
+  display: grid;
+  row-gap: 6rem;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-rows: minmax(9vh, 10vh) 1.3fr 1.6fr 1fr minmax(10vh, auto-fit);
+
+  grid-template-areas:
+    "hd"
+    "feat"
+    "main"
+    "sub"
+    "foot";
+}
+
+/* Post Detailes Grid */
+
+.master-grid-container_post {
+  height: 100%;
+  display: grid;
+  row-gap: 4rem;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-rows: minmax(9vh, 10vh) 1.5fr 0.5fr 1fr 1fr minmax(10vh, auto-fit);
+
+  grid-template-areas:
+    "hd"
+    "main"
+    "share"
+    "about"
+    "sub"
+    "foot";
+}
