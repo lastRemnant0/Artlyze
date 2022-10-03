@@ -69,7 +69,8 @@ pale jade: #76b6a3
 }
 
 .card .card-header-img {
-  max-height: 20rem;
+  height: 20rem;
+  max-width: 35rem;
   box-shadow: 0 3px 0 rgba(39, 40, 41, 0.5);
 }
 
@@ -343,6 +344,10 @@ pale jade: #76b6a3
     letter-spacing: 1px;
   }
 
+  .share-post_links {
+    flex-direction: column;
+  }
+
   .about-me_img-container {
     flex-direction: row;
   }
@@ -403,7 +408,7 @@ pale jade: #76b6a3
 
   .grid-posts {
     display: grid;
-    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-template-columns: repeat(2, minmax(auto, 35rem));
     grid-auto-rows: 2rem repeat(auto, 1fr);
   }
 
