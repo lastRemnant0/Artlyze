@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Artists are dominating the world, know more about them here."
+    />
+    <title>Ali's Blog</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Hover CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
+      integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/F3TX28OctJzoLfg=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Pacifico&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <span
+      id="scroll-to-here"
+      aria-label="scroll to header visually hidden"
+    ></span>
+    <div class="master-grid-container">
+      <!-- Header Section -->
+      <header class="page-header" id="page-header">
+        <nav class="navbar">
+          <h1 id="logo">Artlyze</h1>
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Feature Section -->
+
+      <section class="features" aria-label="Feature post">
+        <article class="feature-post">
+          <header class="feature-post-header">
+            <h2 class="title">
+              <span class="heading-titles-span-line">Featured</span> Post
+            </h2>
+            <img
+              src="./images/features-cover/artgerm_cover.jpg"
+              alt="Artgerm feature of the month!"
+              title="Artgerm feature of the month!"
+            />
+          </header>
+          <time datetime="2020-12-05T19:00">Dec 5</time>
+          <a href="blog-post.html" class="feature-link">
+            <h3>The Most Amazing Artist</h3>
+            <p>
+              Better known by his handle Artgerm, Stanley's art continues to
+              infect and inspire new generations of artists.
+            </p>
+          </a>
+        </article>
+      </section>
+
+      <!-- Main Section for Blog Posts -->
+
+      <main class="blog-posts">
+        <div class="posts grid-posts">
+          <h2 class="posts-title">
+            <span class="heading-titles-span-line">Latest</span> articles
+          </h2>
+          <article class="card">
+            <header class="card-header-img">
+              <img
+                src="./images/darek-zabrocki.jpg"
+                alt="Artgerm feature of the month!"
+                title="Artgerm feature of the month!"
+              />
+            </header>
+            <a href="blog-post.html" class="blog-post-link">
+              <h3>Concept Artist Derek Zerick</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                repellat!
+              </p>
+            </a>
+          </article>
+
+          <article class="card">
+            <header class="card-header-img">
+              <img
+                src="./images/art-of-Jason-Chan.jpg"
+                alt="Artgerm feature of the month!"
+                title="Artgerm feature of the month!"
+              />
+            </header>
+            <a href="blog-post.html" class="blog-post-link">
+              <h3>Practice more to get better</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                repellat!
+              </p>
+            </a>
+          </article>
+
+          <article class="card">
+            <header class="card-header-img">
+              <img
+                src="./images/victor-mosquera-sherlock.jpg"
+                alt="Artgerm feature of the month!"
+                title="Artgerm feature of the month!"
+              />
+            </header>
+            <a href="blog-post.html" class="blog-post-link">
+              <h3>Inspirations from the creative...</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                repellat!
+              </p>
+            </a>
+          </article>
+
+          <article class="card">
+            <header class="card-header-img">
+              <img
+                src="./images/james-paick-scribble-pad.jpg"
+                alt="Artgerm feature of the month!"
+                title="Artgerm feature of the month!"
+              />
+            </header>
+            <a href="blog-post.html" class="blog-post-link">
+              <h3>I don't know what to write just want to see...</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                repellat!
+              </p>
+            </a>
+          </article>
+        </div>
+      </main>
+
+      <!-- Subscription Section -->
+
+      <section class="sub" aria-label="Subscribe section">
+        <form
+          class="form-sub"
+          action="mailto:ali.entaif@gmail.com"
+          method="POST"
+        >
+          <label for="email"
+            ><strong
+              >Subscribe here and get all the cool news about artists and my
+              reviews!</strong
+            ></label
+          >
+          <input type="email" id="email" name="email" required />
+          <input type="submit" class="sub-button" value="Subscribe" />
+        </form>
+      </section>
+
+      <!-- Footer Section -->
+
+      <footer class="footer">
+        <p>Made by Ali</p>
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link hvr-pop" aria-label="share facebook"
+              ><i class="fab fa-facebook-square fa-3x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-link hvr-pop" aria-label="share instagram"
+              ><i class="fab fa-instagram fa-3x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-link hvr-pop" aria-label="share twitter"
+              ><i class="fab fa-twitter-square fa-3x"></i
+            ></a>
+          </li>
+        </ul>
+        <a
+          class="move-to-header hvr-pop"
+          href="#scroll-to-here"
+          aria-label="scroll to header"
+          ><i class="fas fa-arrow-circle-up fa-3x"></i
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>

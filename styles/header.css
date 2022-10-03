@@ -1,0 +1,73 @@
+/* Styling the header and nav of the page */
+
+.page-header,
+.navbar,
+.nav-items {
+  display: flex;
+}
+
+.page-header {
+  grid-area: hd;
+  background-color: #2a3039;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+#logo {
+  line-height: 1;
+  letter-spacing: 2px;
+  font-size: 2.7rem;
+  color: #59eec2;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+}
+
+.navbar {
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.nav-items {
+  position: relative;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nav-items li {
+  margin: 1rem 0 0 1rem;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+.nav-items li a {
+  font: bold 1.6rem "Roboto", serif;
+  color: #d1d1d1;
+  border-radius: 1rem;
+  padding: 1rem 0;
+}
+
+.nav-items li a::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #59eec2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-items li a:hover {
+  transition: 0.2s ease;
+  color: aliceblue;
+}
+
+.nav-items li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: right center;
+  transition-duration: 0.4s;
+}
