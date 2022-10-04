@@ -152,11 +152,21 @@ pale jade: #76b6a3
 
 /* Small Screens*/
 
+@media only screen and (max-width: 415px) {
+  .card {
+    width: 85%;
+  }
+}
+
 @media only screen and (max-width: 374px) {
   .page-header li a {
     font-size: 1.3rem;
     margin: 0;
     padding: 0.5rem 0.5rem;
+  }
+
+  .card {
+    width: 80%;
   }
 }
 
